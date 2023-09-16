@@ -8,9 +8,9 @@ class Student {
 
 void main(List<String> args) {
   // Getting Started With
-  List<Student> studentList = [];
+  final List<Student> studentList = [];
 
-  Student someStudent = new Student("Pranay Ramteke", 20001);
+  final Student someStudent = new Student("Pranay Ramteke", 20001);
   studentList.add(new Student("Pranay G", 12));
   studentList.add(someStudent);
   studentList.insert(0, new Student("Mithilesh Mothgare", 69));
